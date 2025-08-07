@@ -1,0 +1,79 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "418d76ff-28e8-4174-bf1d-f9c2311d9224")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 115.57 80.01)
+		(end 140.97 109.22)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 32b51835-dc29-455d-976d-c6a7dadab6b3)
+	)
+	(text "PULL UPs"
+		(exclude_from_sim no)
+		(at 115.57 80.01 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d72edd12-9cc8-40c3-8a03-da0943369544")
+	)
+	(text_box "Comm passives here (e.g. I2C pullups)"
+		(exclude_from_sim no)
+		(at 116.84 81.28 0)
+		(size 22.86 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 255 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "c979a559-eac6-404d-9b18-eb9c70106ed8")
+	)
+	(text_box "Add 10pin connector"
+		(exclude_from_sim no)
+		(at 146.05 81.28 0)
+		(size 22.86 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 255 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "e99f5f1d-8b45-4356-8cf3-d181c60c81ed")
+	)
+)
