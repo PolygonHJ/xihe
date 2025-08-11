@@ -1,7 +1,8 @@
 # Technical Sheet
 
 > [!warning]
-> Check PCBWay manufacturing. Might be able to route VSTOR over the top of the board between the ground pad and pins.
+> - [ ] Check PCBWay manufacturing. Might be able to route VSTOR over the top of the board between the ground pad and pins.
+> - [ ] Add grounding vias.
 
 ## XIAO NRF54L15
 The schematic for the [XIAO NRF54L15](https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15_Schematic.pdf) is available online.
