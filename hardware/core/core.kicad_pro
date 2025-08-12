@@ -556,7 +556,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "core.step",
       "svg": "",
       "vrml": ""
     },
@@ -673,6 +673,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Short",
+          "name": "Short",
           "show": false
         }
       ],
