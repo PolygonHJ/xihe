@@ -5496,6 +5496,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "KXOB25-14X1TF-TR"
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "051dbd03-755f-4657-b38e-702d55b2d3e8")
 		)
@@ -5941,6 +5950,15 @@
 			)
 		)
 		(property "Package" "8WSON"
+			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BQ25173DSGR"
 			(at 119.38 176.53 0)
 			(effects
 				(font
@@ -6409,6 +6427,15 @@
 		)
 		(property "Description" "Dual supply unidirectional translating buffer"
 			(at 242.57 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "74AXP1T34GSH"
+			(at 243.84 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,6 +8673,15 @@
 			)
 		)
 		(property "Package" "20QFN"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BQ25570RGRR"
 			(at 137.16 41.91 0)
 			(effects
 				(font

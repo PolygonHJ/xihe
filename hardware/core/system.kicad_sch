@@ -2395,6 +2395,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "5055501020"
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c43e6c2a-5ba0-48ec-85f6-984bd07b09ad")
 		)
