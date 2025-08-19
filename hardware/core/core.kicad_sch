@@ -4,10 +4,15 @@
 	(generator_version "9.0")
 	(uuid "8ec7ca4f-74cd-48e1-b45d-8806dcda5073")
 	(paper "A4")
+	(title_block
+		(title "Xihe")
+		(date "2025-08-19")
+		(rev "0.1")
+	)
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 127 76.2)
+			(xy 147.32 97.79) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
@@ -16,7 +21,7 @@
 		(uuid "0b1ad677-5fba-4b29-8619-8f99bb1e70f0")
 	)
 	(sheet
-		(at 88.9 63.5)
+		(at 121.92 85.09)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32,7 +37,7 @@
 		)
 		(uuid "97f9fe75-9be2-4373-a3aa-3fd324a1345e")
 		(property "Sheetname" "system"
-			(at 88.9 62.7884 0)
+			(at 121.92 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +46,7 @@
 			)
 		)
 		(property "Sheetfile" "system.kicad_sch"
-			(at 88.9 89.4846 0)
+			(at 121.92 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +55,7 @@
 			)
 		)
 		(pin "VBAT_OK_MCU" input
-			(at 114.3 76.2 0)
+			(at 147.32 97.79 0)
 			(uuid "99846059-f318-412d-b966-98e150d7bee4")
 			(effects
 				(font
@@ -68,7 +73,7 @@
 		)
 	)
 	(sheet
-		(at 127 63.5)
+		(at 160.02 85.09)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -84,7 +89,7 @@
 		)
 		(uuid "cd3a3636-14ab-4325-9b35-d239f2fcdaad")
 		(property "Sheetname" "harvester"
-			(at 127 62.7884 0)
+			(at 160.02 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +98,7 @@
 			)
 		)
 		(property "Sheetfile" "harvester.kicad_sch"
-			(at 127 89.4846 0)
+			(at 160.02 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,7 +107,7 @@
 			)
 		)
 		(pin "VBAT_OK_MCU" output
-			(at 127 76.2 180)
+			(at 160.02 97.79 180)
 			(uuid "3d1e966c-7c91-48ce-8b4b-04d03359894d")
 			(effects
 				(font
@@ -115,48 +120,6 @@
 			(project "core"
 				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 88.9 101.6)
-		(size 63.5 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 255 0 1.0000)
-		)
-		(uuid "fdf06079-6921-4ec8-b652-4e7c1d34db2e")
-		(property "Sheetname" "sensor_board"
-			(at 88.9 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sensor_board.kicad_sch"
-			(at 88.9 114.8846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "core"
-				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073"
-					(page "4")
 				)
 			)
 		)

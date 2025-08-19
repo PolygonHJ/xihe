@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "d5781495-8b59-417b-973b-c15c74d228ec")
 	(paper "A4")
+	(title_block
+		(title "Xihe")
+		(date "2025-08-19")
+		(rev "0.1")
+	)
 	(lib_symbols
 		(symbol "bpower:VUSB"
 			(power)
@@ -6011,7 +6016,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "63cc5a6c-588a-489c-bd3e-ca3bbc497082")
 		(property "Reference" "J2"
 			(at 210.185 128.27 0)

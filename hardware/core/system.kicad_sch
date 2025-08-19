@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "8196e5f2-a8c4-42a6-9b40-fb42ab6c595f")
 	(paper "A4")
+	(title_block
+		(title "Xihe")
+		(date "2025-08-19")
+		(rev "0.1")
+	)
 	(lib_symbols
 		(symbol "connectors:MOLEX_SlimStack_505550-1020"
 			(pin_names
@@ -1111,6 +1116,7 @@
 					(alternate "" input line)
 					(alternate "A2" bidirectional line)
 					(alternate "D2" bidirectional line)
+					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at -2.54 -10.16 0)
@@ -1383,7 +1389,7 @@
 		)
 		(uuid "31e91166-bf3a-413a-a7cc-1dafa1224bb4")
 	)
-	(text "Sensor Connector"
+	(text "SENSOR CONNECTOR"
 		(exclude_from_sim no)
 		(at 87.63 73.66 0)
 		(effects

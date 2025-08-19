@@ -741,10 +741,6 @@
     [
       "cd3a3636-14ab-4325-9b35-d239f2fcdaad",
       "harvester"
-    ],
-    [
-      "fdf06079-6921-4ec8-b652-4e7c1d34db2e",
-      "sensor_board"
     ]
   ],
   "text_variables": {}
