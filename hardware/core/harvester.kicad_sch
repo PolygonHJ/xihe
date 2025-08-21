@@ -10,131 +10,6 @@
 		(rev "0.1")
 	)
 	(lib_symbols
-		(symbol "bpower:VUSB"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VUSB"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VUSB\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VUSB_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VUSB_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "connectors:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4579,6 +4454,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power_symbol:VUSB")
+		(at 162.56 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "115dd20b-c17f-4a9f-9b50-73aafe435a95")
+		(property "Reference" "#PWR021"
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 162.56 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df2401f7-2df2-4780-a39d-fc9798a3535e")
+		)
+		(instances
+			(project "core"
+				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/cd3a3636-14ab-4325-9b35-d239f2fcdaad"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "passive:R")
 		(at 91.44 62.23 0)
 		(unit 1)
@@ -4756,7 +4696,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "KR-5R5H474-R"
+		(property "Part Number" "EDC474Z5R5H"
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -5501,7 +5441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "KXOB25-14X1TF-TR"
+		(property "Part Number" "KXOB25-03X4F-TR"
 			(at 30.48 68.58 0)
 			(effects
 				(font
@@ -6016,7 +5956,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "63cc5a6c-588a-489c-bd3e-ca3bbc497082")
 		(property "Reference" "J2"
 			(at 210.185 128.27 0)
@@ -6034,7 +5974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "connectors:PD_801-83-002-20-001101"
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -6061,7 +6001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SSA-102-W-T-RA"
+		(property "Part Number" "801-83-002-20-001101"
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -8309,71 +8249,6 @@
 			(project ""
 				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/cd3a3636-14ab-4325-9b35-d239f2fcdaad"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bpower:VUSB")
-		(at 162.56 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb0df428-f911-4425-addb-fa2091049698")
-		(property "Reference" "#PWR021"
-			(at 162.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 162.56 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3f44709-2153-40c6-87eb-f837bd12cb35")
-		)
-		(instances
-			(project "core"
-				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/cd3a3636-14ab-4325-9b35-d239f2fcdaad"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)

@@ -17,8 +17,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 6.35 5.08 0)
+			(property "Reference" "J"
+				(at 6.096 1.27 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -26,7 +26,7 @@
 				)
 			)
 			(property "Value" "MOLEX_SlimStack_505550-1020"
-				(at 6.35 2.54 0)
+				(at -1.27 13.716 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1113,10 +1113,8 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "A2" bidirectional line)
 					(alternate "D2" bidirectional line)
-					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at -2.54 -10.16 0)
@@ -1960,129 +1958,6 @@
 		)
 	)
 	(symbol
-		(lib_id "som:XIAO-NRF54L15-DIP")
-		(at 179.07 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13b45ecc-4770-4d45-a7a3-742ff07c4cf4")
-		(property "Reference" "U1"
-			(at 191.77 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XIAO-NRF54L15"
-			(at 191.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "part_specific:XIAO-NRF54L15-DIP"
-			(at 179.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/"
-			(at 179.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XIAO NRF54L15"
-			(at 168.656 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 179.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "b686b421-d781-4803-8fb7-15aa0e57cd38")
-			(alternate "SCL0")
-		)
-		(pin "7"
-			(uuid "214562e5-551a-4a29-9004-12bf0b017f44")
-			(alternate "TX")
-		)
-		(pin "1"
-			(uuid "6d7e1615-bad8-4ad0-864b-aa42bcad5bf6")
-			(alternate "D0")
-		)
-		(pin "2"
-			(uuid "30f087c7-8b22-48b7-9efb-00d97d55805f")
-		)
-		(pin "4"
-			(uuid "89e487bb-95cc-4acc-9765-40d24aaa6e15")
-			(alternate "A3")
-		)
-		(pin "3"
-			(uuid "87bcaa47-3a16-484e-b2bf-bd477aac9ab5")
-			(alternate "P1.06")
-		)
-		(pin "5"
-			(uuid "de6d11fb-8a85-4905-baa2-641ab00ddd08")
-			(alternate "SDA0")
-		)
-		(pin "14"
-			(uuid "4c421cf1-85cd-48ba-8790-4bbf8d9e3058")
-		)
-		(pin "13"
-			(uuid "9727c983-21b9-447e-ac63-a3b13dd896d4")
-		)
-		(pin "8"
-			(uuid "f2e392fc-0fcf-47e3-813e-894e0d0740d3")
-			(alternate "RX")
-		)
-		(pin "10"
-			(uuid "d81cf03a-0995-47f8-8357-61889a57184d")
-			(alternate "MISO")
-		)
-		(pin "12"
-			(uuid "e6510c86-1c73-4039-89f7-5482da0638f4")
-		)
-		(pin "9"
-			(uuid "f5e7ec67-a674-4ac0-957e-3a7fb8b33bc5")
-			(alternate "SCK")
-		)
-		(pin "11"
-			(uuid "4901e193-404f-4992-af5e-59dcfb0ace5c")
-			(alternate "MOSI")
-		)
-		(instances
-			(project ""
-				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/97f9fe75-9be2-4373-a3aa-3fd324a1345e"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_symbol:GND")
 		(at 93.98 113.03 0)
 		(unit 1)
@@ -2447,6 +2322,119 @@
 			(project ""
 				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/97f9fe75-9be2-4373-a3aa-3fd324a1345e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "som:XIAO-NRF54L15-DIP")
+		(at 179.07 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b52eac-9420-4588-92d2-98ea01a0e6f4")
+		(property "Reference" "U1"
+			(at 191.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO-NRF54L15"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "part_specific:XIAO-NRF54L15-DIP"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XIAO NRF54L15"
+			(at 168.656 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XIAO-NRF54L15"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e3a0f5c4-896d-4143-a0c5-f01024f5c27b")
+		)
+		(pin "6"
+			(uuid "960092ae-3604-4ca1-a893-2afae52e094f")
+		)
+		(pin "7"
+			(uuid "f4fcd10f-8e1b-44eb-9e62-ed7366c1ef1e")
+		)
+		(pin "8"
+			(uuid "e5ff6cce-2fb0-4968-976f-188d93979c75")
+		)
+		(pin "4"
+			(uuid "e433ecf0-891c-478a-8fe9-aa82e8b5cb9d")
+		)
+		(pin "2"
+			(uuid "153358ab-ef80-444a-9f50-c1dd0b60a625")
+		)
+		(pin "1"
+			(uuid "82a092a7-9fb2-4333-87da-a1030418ddc0")
+		)
+		(pin "3"
+			(uuid "bfe85769-a47c-402d-ae29-ebce537bec18")
+		)
+		(pin "14"
+			(uuid "edc0466e-1cdf-487e-a977-27e283280392")
+		)
+		(pin "11"
+			(uuid "ab3365ad-a5bd-4fdd-9895-ce9718ff435e")
+		)
+		(pin "10"
+			(uuid "f30e6646-e1ac-461c-b781-920e91f21aa6")
+		)
+		(pin "12"
+			(uuid "9e98d778-d3d3-42b0-b11d-f3db76d57bb8")
+		)
+		(pin "13"
+			(uuid "e4ba319c-c1fc-42de-a210-98c38d837873")
+		)
+		(pin "9"
+			(uuid "9d89715c-a789-4c0c-a39f-3a004c813907")
+		)
+		(instances
+			(project ""
+				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/97f9fe75-9be2-4373-a3aa-3fd324a1345e"
+					(reference "U1")
 					(unit 1)
 				)
 			)
