@@ -4438,6 +4438,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08ebe7e7-5534-4241-b628-f2ea867469cf")
 		)
@@ -4609,6 +4627,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 91.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 91.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7a20ba2-bf4b-4333-89e6-281df112b77e")
 		)
@@ -4660,7 +4696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cde.com/resources/catalogs/EDC.pdf"
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -4669,7 +4705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor 470mF throug-hole"
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -4706,6 +4742,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Cornell Dubilier Knowles"
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "tht"
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -4812,6 +4866,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 77.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 77.47 62.23 0)
 			(effects
 				(font
@@ -5057,6 +5129,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2710f082-ad43-4e7e-aba2-23296aeea975")
 		)
@@ -5155,6 +5245,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -5269,6 +5377,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 180.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 180.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b10e437a-fcb3-4a07-b2da-92e0bdb66274")
 		)
@@ -5327,7 +5453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Inductor 22u NRS4012"
 			(at 101.346 38.354 0)
 			(effects
 				(font
@@ -5354,6 +5480,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -5414,7 +5558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRx/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%2020210127.pdf"
 			(at 30.48 67.056 90)
 			(effects
 				(font
@@ -5442,6 +5586,24 @@
 			)
 		)
 		(property "Part Number" "KXOB25-03X4F-TR"
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ANYSOLAR Ltd"
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 30.48 68.58 0)
 			(effects
 				(font
@@ -5687,6 +5849,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c475e3c9-e423-4b9d-9c3d-4a9707750ef4")
 		)
@@ -5912,6 +6092,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "ccaa6974-69a6-4802-b576-a9e29ecf30a9")
 		)
@@ -5983,7 +6181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -6002,6 +6200,24 @@
 			)
 		)
 		(property "Part Number" "801-83-002-20-001101"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Preci-Dip"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "tht"
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -6108,6 +6324,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 165.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 165.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 165.1 180.34 0)
 			(effects
 				(font
@@ -6388,6 +6622,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Nexperia USA Inc."
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "6XSON"
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a29d2a7a-39f5-4fda-8fa6-458fb57407f1")
 		)
@@ -6523,7 +6784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Inductor 10u 1008Metric"
 			(at 166.116 56.134 0)
 			(effects
 				(font
@@ -6559,6 +6820,24 @@
 			)
 		)
 		(property "Package" "1008"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 166.37 52.07 0)
 			(effects
 				(font
@@ -6665,6 +6944,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 60.96 87.63 0)
 			(effects
 				(font
@@ -6844,6 +7141,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02e502fd-4412-40e4-8081-8185817d9f88")
 		)
@@ -6942,6 +7257,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 105.41 40.64 0)
 			(effects
 				(font
@@ -7187,6 +7520,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aac146b8-2e07-41c9-8014-d96bd5178fed")
 		)
@@ -7293,6 +7644,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 180.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 180.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "390349fc-9026-4272-b25c-3d5ea3169316")
 		)
@@ -7391,6 +7760,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -7701,6 +8088,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaca9cfe-460b-4f16-9491-d3bf888eac1c")
 		)
@@ -8002,6 +8407,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "beac3e5c-6c5c-47a4-873d-472fc3c6cd0e")
 		)
@@ -8101,6 +8524,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 162.56 68.58 0)
 			(effects
 				(font
@@ -8345,6 +8786,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9ad6728-b4bf-4690-8ddd-144d223aec79")
 		)
@@ -8552,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "20QFN"
+		(property "Package" "20VQFN"
 			(at 137.16 41.91 0)
 			(effects
 				(font
@@ -8562,6 +9021,24 @@
 			)
 		)
 		(property "Part Number" "BQ25570RGRR"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 137.16 41.91 0)
 			(effects
 				(font
@@ -8678,7 +9155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -8702,6 +9179,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 152.4 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 152.4 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8934,6 +9429,24 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 139.7 180.34 0)
 			(effects
 				(font

@@ -2285,6 +2285,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Molex"
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c43e6c2a-5ba0-48ec-85f6-984bd07b09ad")
 		)
@@ -2362,7 +2380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/"
 			(at 179.07 83.82 0)
 			(effects
 				(font
@@ -2381,6 +2399,24 @@
 			)
 		)
 		(property "Part Number" "XIAO-NRF54L15"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Seeed Studio"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
 			(at 179.07 83.82 0)
 			(effects
 				(font
