@@ -2516,7 +2516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "part_specific:COMUS_RI80SMDM0510G1"
+		(property "Footprint" "part_specific:COMUS_RI80SMDM0510J1"
 			(at 137.16 125.73 0)
 			(effects
 				(font
@@ -2561,7 +2561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RI80SMDM-0510-G1"
+		(property "Part Number" "RI80SMDM-0510-J1"
 			(at 137.16 125.73 90)
 			(effects
 				(font
@@ -3766,10 +3766,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "024a8d6d-4e14-4762-82e0-cc51a49aa000")
+			(uuid "024a8d6d-4e14-4762-82e0-cc51a49aa001")
 		)
 		(pin "1"
-			(uuid "36ed14e1-c783-40a5-9ab7-bc99a4340a93")
+			(uuid "36ed14e1-c783-40a5-9ab7-bc99a4340a94")
 		)
 		(instances
 			(project ""
