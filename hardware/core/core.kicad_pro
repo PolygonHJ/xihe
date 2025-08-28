@@ -556,7 +556,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "core.step",
+      "step": "mechanical/core.step",
       "svg": "",
       "vrml": ""
     },

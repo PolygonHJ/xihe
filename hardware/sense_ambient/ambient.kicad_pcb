@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Xihe")
+		(date "2025-08-28")
+		(rev "0.1")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -2942,7 +2947,7 @@
 			(net 1 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "34abdf06-6bbb-4d60-87bc-41acfdc942da")
+			(uuid "406f1012-3487-450e-84d4-b1b14950a5cb")
 		)
 		(pad "MP" smd rect
 			(at 1.424998 -0.479999 90)
@@ -2951,7 +2956,7 @@
 			(net 1 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "34abdf06-6bbb-4d60-87bc-41acfdc942da")
+			(uuid "4886809e-2160-43eb-aa46-af2887927253")
 		)
 		(pad "MP" smd rect
 			(at 1.424998 0.479999 90)
@@ -2960,7 +2965,7 @@
 			(net 1 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "34abdf06-6bbb-4d60-87bc-41acfdc942da")
+			(uuid "09a02177-411e-41b4-9e8d-502d588252f8")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libs/models/connectors/SlimStack_5055511020.step"

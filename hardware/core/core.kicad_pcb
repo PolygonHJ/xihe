@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Xihe")
-		(date "2025-08-21")
+		(date "2025-08-28")
 		(rev "0.1")
 	)
 	(layers
@@ -4937,7 +4937,7 @@
 			(net 2 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "f2fe5dbd-0113-4c26-88f2-c537e993ebb4")
+			(uuid "dc21b29a-4adf-433c-9493-b37bd3683bfc")
 		)
 		(pad "MP" smd rect
 			(at 1.549999 1.144999 90)
@@ -4946,7 +4946,7 @@
 			(net 2 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "f2fe5dbd-0113-4c26-88f2-c537e993ebb4")
+			(uuid "295d13ec-9d09-4f30-85a9-4fdd1ecb1f94")
 		)
 		(pad "MP" smd rect
 			(at 1.550035 -1.144999 90)
@@ -4955,7 +4955,7 @@
 			(net 2 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "f2fe5dbd-0113-4c26-88f2-c537e993ebb4")
+			(uuid "7a91857c-4bc9-413b-8ddd-3400c231f537")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libs/models/connectors/SlimStack_5055501020.step"

@@ -556,7 +556,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ambient.step",
+      "step": "mechanical/ambient.step",
       "svg": "",
       "vrml": ""
     },
