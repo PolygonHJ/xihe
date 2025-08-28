@@ -637,25 +637,25 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Power",
           "name": "Power",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -667,7 +667,7 @@
           "group_by": false,
           "label": "Voltage Rating",
           "name": "Voltage Rating",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -679,7 +679,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

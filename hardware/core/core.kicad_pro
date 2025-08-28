@@ -619,7 +619,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -637,7 +637,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -649,7 +649,7 @@
           "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
