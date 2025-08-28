@@ -1,11 +1,7 @@
 # Technical Sheet
 
-> [!note]
-> - [ ] Add grounding vias.
-> - [ ] Check spreadsheet from PCBWay and update KiCad BoM to match
-
 > [!warning]
-> External energy modules will need to have matching voltages with the on board super capacitor. The `CAP` jumper may be disconnected to improve available selection, but charging limits are still set by on-board resistors.
+> External energy modules will need to have matching voltages with the on board super capacitor. The capacitor may be desoldered to improve available selection, but charging limits are still set by on-board resistors.
 
 > [!warning]
 > Sensor modules must work down to 2.5V to match the potential low threshold of operation as the super capacitor depletes.
@@ -35,7 +31,7 @@ For the running systme ($V_{initial}=2.5$):
 $t = \frac{0.47 \times (5.3-2.5)^2}{2 \times 0.8 \times 0.348} = 1h50min$ to fully charge.
 
 > [!note] Note
-> Ignores the sleep mode discharge.
+> Ignores the energy being consumed by the system while charging.
 
 ### Discharging
 For the system to fully use the available energy in the capacitor:  
@@ -72,13 +68,54 @@ The device has:
 -  25% efficiency.
 
 ## Harvester
+The harvester is the [BQ25570](https://www.ti.com/lit/ds/symlink/bq25570.pdf). TI was chosen thanks to their good documentation. Of the TI range, the [BQ25570](https://www.ti.com/lit/ds/symlink/bq25570.pdf) offers a built in buck to reduce over-all circuit complexity. It also works with inputs from 100mV up to 5.5V.
+
+The boost ([NRS4012T220MDGJ](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/610/NRS4012T220MDGJ_SS.pdf)) and buck ([DFE252012F-100M=P2](https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe252012f.ashx)) inductors were chosen based on the recommended values in section 8.1.3 of the [BQ25570](https://www.ti.com/lit/ds/symlink/bq25570.pdf) datasheet.
+
+The peripheral capacitors are chosen based on the recommended values in section 8.1.4 of the [BQ25570](https://www.ti.com/lit/ds/symlink/bq25570.pdf) datasheet.
+
+TI provide a design help guide (SLUC484) on their [product page](https://www.ti.com/product/BQ25570#design-tools-simulation) (also found in the resources section of this repository) which is a calculator to help determine required resistor values.
+
+> [!note]
+> BoM consolidation on the resistor values can likely be done as a future cost saving exercise as the precision and requirements around these voltage settings is not absolutely strict. The initial values have been chosen to maximise the power saving benefit from the higher sum values.
+
+### MPPT
+The harvesting energy source is a solar cell ([KXOB25-03X4F-TR](https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRx/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%2020210127.pdf)), therefore the MPPT can be set to 80% which can be achieved on the BQ25570 by tying the `VOC_SAMP` pin to `VSTOR`.
+
+### VBAT_OV
+The overvoltage is targeted at 5V5 to maximise the energy that can be stored in a 5V5 capacitor. 
+
+To calculate the required resistor values: $\texttt{VBAT\_OV} = \frac{3}{2} \times 1.21 \left ( 1 + \frac{R_{OV2}}{R_{OV1}}\right )$ and $R_{OV1}+R_{OV2} < 13M\Omega$.
+
+Allowing or a 1% tolerance on the resistors, this sets $R_{OV1}=4.22M\Omega$ and $R_{OV2}=8.2M\Omega$. This leads to a highest possible $\texttt{VBAT\_OV} = 5.4V$ and a nominal $\texttt{VBAT\_OV} = 5.3V$.
+
+> [!warning] Warning
+> If a battery module is to be connected, the value of these resistor will most likely need to be changed to support the supplied batteries safe limits.
+
+### VBAT_OK_PROG & VBAT_OK_HYST
+The `VBAT_OK_PROG` threshold sets the `VBAT_OK` signal low when the storage device is discharging and drops below the configured threshold.
+
+The `VBAT_OK_HYST` threshold sets the `VBAT_OK` signal high when the storage device is charging and goes above the configured threshold.
+
+The system shall be designed so that `VBAT_OK_PROG` = 3V3 and `VBAT_OK_HYST` = 2V5. Under the condition that the system is only able to charge up to 3V3, due to the available harvestable energy, this would give the system a 2hr dark time before hitting the 2V5 threshold where the MCU is alerted to no longer operate assuming it has an average current draw of $50\mu A$. It would then enter a powered sleep mode (estimed $I_{avg}=10\mu A$) where it could operate for 8hrs until it hits the `VBAT_UV` (1V9) threshold at which power is removed from the system.
+
+The values can be calculated using the following equations (also in the design help guide):  
+- $R_{OK1} + R_{OK2} + R_{OK3} < 13M\Omega$,
+- $\texttt{VBAT\_OK\_PROG} = 1.31 \left ( 1 + \frac{R_{OK2}}{R_{OK1}} \right )$,
+- $\texttt{VBAT\_OK\_HYST} = 1.31 \left ( 1 + \frac{R_{OK2} + R_{OK3}}{R_{OK1}} \right )$.
+
+This leads to $R_{OK1}=4.7M\Omega$, $R_{OK2}=5.1M\Omega$, $R_{OK3}=3.0M\Omega$.
 
 
+### VOUT
+The system was chosen to operate at 2.5V to match the `VBAT_OK_PROG`, i.e. the system should always be operating at 2V5 unless it reaches a force sleep state.
+The configuration resistor values can be calculated using:
+- $R_{OUT1} + R_{OUT2} < 13M\Omega$
+- $V_{OUT} = 1.21 \left ( \frac{R_{OUT1} + R_{OUT2}}{R_{OUT1}}\right )$
 
-> [!warning]
-> Continue...
+This leads to $R_{OUT1} = R_{OUT2} = 6.49M\Omega$. This sets the threshold to 2V4, but is close enough for the BoM consolidation benefit.
 
-### VBAT_OK
+### VBAT_OK Signal
 The `VBAT_OK` pin is controlled through a PFET to `VSTOR`. Therefore the output is held at `VSTOR` when the battery charge is above the configured threshold, and pulled to ground when the signal is below the configured threshold (i.e. an external pull resistor is not required).
 
 The `VSTOR` voltage could range from $1.95V$ to $5.5V$ depending on the capacitor charge. Possible solutions are: NMOS/PMOS level shifter, zener diode, level shifter IC.
@@ -101,7 +138,6 @@ It is an active push-pull device so no pull resistors are required.
 
 ## Capacitor
 The [EDC224Z5R5H](https://www.digikey.co.uk/en/products/detail/cornell-dubilier-knowles/EDC224Z5R5H/10412911) is a 470mF 5.5V capacitor which sits at approximately the same off board height as the USB connector. Therefore it should have minimal impact on overall board size. 
-
 
 ### Possible Substitutes
 - [KR-5R5H474-R](https://www.digikey.co.uk/en/products/detail/eaton-electronics-division/KR-5R5H474-R/1556249),

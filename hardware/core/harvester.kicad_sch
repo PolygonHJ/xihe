@@ -1324,201 +1324,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "misc:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Short" "O/C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "passive:C"
 			(pin_numbers
 				(hide yes)
@@ -2748,28 +2553,6 @@
 		)
 		(uuid "fe07356a-ad19-4c24-a976-8fc2eefbd78f")
 	)
-	(text_box "Check MPPT"
-		(exclude_from_sim no)
-		(at 16.51 107.95 0)
-		(size 92.71 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 0 0 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 255 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "cdaf3e70-7475-4266-885e-4260797b2898")
-	)
 	(junction
 		(at 161.29 34.29)
 		(diameter 0)
@@ -3747,7 +3530,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 121.92) (xy 152.4 123.19)
+			(xy 152.4 121.92) (xy 152.4 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3945,16 +3728,6 @@
 			(type default)
 		)
 		(uuid "d91f82c2-15c5-485a-af53-dc354fc6233e")
-	)
-	(wire
-		(pts
-			(xy 152.4 130.81) (xy 152.4 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9fc590-5140-463e-ac20-52c93d6e0463")
 	)
 	(wire
 		(pts
@@ -4176,16 +3949,6 @@
 		)
 		(uuid "154e6364-77d1-4dc7-97bc-1b5ab55cc656")
 	)
-	(label "CAP_J"
-		(at 152.4 135.89 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2549c093-45ce-4913-ae3c-7b122b6f4bec")
-	)
 	(label "VREF_SAMP"
 		(at 109.22 39.37 0)
 		(effects
@@ -4384,7 +4147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
 			(at 195.58 68.58 0)
 			(effects
 				(font
@@ -4573,7 +4336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 91.44 62.23 0)
 			(effects
 				(font
@@ -4705,7 +4468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 470mF throug-hole"
+		(property "Description" "Capacitor 470mF through-hole"
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -4802,7 +4565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2M"
+		(property "Value" "6.49"
 			(at 80.01 64.7699 0)
 			(effects
 				(font
@@ -4820,7 +4583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 77.47 62.23 0)
 			(effects
 				(font
@@ -4856,7 +4619,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "RC0402FR-078M2L"
+		(property "Part Number" "RC0402FR-076M49L"
 			(at 77.47 62.23 0)
 			(effects
 				(font
@@ -5074,7 +4837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 153.67 180.34 0)
 			(effects
 				(font
@@ -5181,7 +4944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.3M"
+		(property "Value" "4.22M"
 			(at 93.98 77.4699 0)
 			(effects
 				(font
@@ -5199,7 +4962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -5235,7 +4998,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "RC0402FR-074M3L"
+		(property "Part Number" "RC0402FR-074M22L"
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -5323,7 +5086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A475ME15-01.pdf"
 			(at 180.34 35.56 0)
 			(effects
 				(font
@@ -5444,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/610/NRS4012T220MDGJ_SS.pdf"
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -5795,7 +5558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A475ME15-01.pdf"
 			(at 91.44 40.64 0)
 			(effects
 				(font
@@ -6181,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.precidip.com/AppHost/9696,1/Scripts/Modules/Catalog/Default.aspx?c=7&i=223&p=86&pdf=1&dsku=801-PP-NNN-20-001101"
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -6190,7 +5953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Right angle 2.54mm connector"
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -6278,7 +6041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
 			(at 165.1 180.34 0)
 			(effects
 				(font
@@ -6784,7 +6547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor 10u 1008Metric"
+		(property "Description" "Inductor 10u"
 			(at 166.116 56.134 0)
 			(effects
 				(font
@@ -6880,7 +6643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6M"
+		(property "Value" "4.7M"
 			(at 63.5 90.1699 0)
 			(effects
 				(font
@@ -6898,7 +6661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 60.96 87.63 0)
 			(effects
 				(font
@@ -6934,7 +6697,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "RC0402FR-075M6L"
+		(property "Part Number" "RC0402FR-074M7L"
 			(at 60.96 87.63 0)
 			(effects
 				(font
@@ -7087,7 +6850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
 			(at 96.52 180.34 0)
 			(effects
 				(font
@@ -7211,7 +6974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C103KA01-01.pdf"
 			(at 105.41 40.64 0)
 			(effects
 				(font
@@ -7465,7 +7228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 153.67 170.18 0)
 			(effects
 				(font
@@ -7590,7 +7353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71A226ME15-01.pdf"
 			(at 180.34 68.58 0)
 			(effects
 				(font
@@ -7696,7 +7459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7M"
+		(property "Value" "5.1M"
 			(at 63.5 77.4699 0)
 			(effects
 				(font
@@ -7714,7 +7477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -7750,7 +7513,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "RC0402FR-074M7L"
+		(property "Part Number" "RC0402FR-075M1L"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -8016,7 +7779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2M"
+		(property "Value" "3.0M"
 			(at 63.5 64.7699 0)
 			(effects
 				(font
@@ -8034,7 +7797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 60.96 62.23 0)
 			(effects
 				(font
@@ -8070,7 +7833,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "RC0402FR-071M2L"
+		(property "Part Number" "RC0402FR-073ML"
 			(at 60.96 62.23 0)
 			(effects
 				(font
@@ -8335,7 +8098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7M"
+		(property "Value" "6.49"
 			(at 80.01 77.4699 0)
 			(effects
 				(font
@@ -8353,7 +8116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 77.47 74.93 0)
 			(effects
 				(font
@@ -8389,7 +8152,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "RC0402FR-074M7L"
+		(property "Part Number" "RC0402FR-076M49L"
 			(at 77.47 74.93 0)
 			(effects
 				(font
@@ -8477,7 +8240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 162.56 68.58 0)
 			(effects
 				(font
@@ -8732,7 +8495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C103KA01-01.pdf"
 			(at 190.5 35.56 0)
 			(effects
 				(font
@@ -9120,101 +8883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "misc:SolderJumper_2_Open")
-		(at 152.4 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e096f5fa-ea40-4ece-ac09-56758d8163ec")
-		(property "Reference" "JP1"
-			(at 155.194 123.698 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 155.194 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "misc:SolderJumper2_Open_0402"
-			(at 152.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 152.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Short" "CAP"
-			(at 156.972 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 152.4 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "smt"
-			(at 152.4 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6435ce3-2889-4d92-8779-aae94740cc91")
-		)
-		(pin "2"
-			(uuid "29b25385-a7a0-4fe4-85de-fc4f64439dd9")
-		)
-		(instances
-			(project ""
-				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/cd3a3636-14ab-4325-9b35-d239f2fcdaad"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_symbol:GND")
 		(at 133.35 189.23 0)
 		(unit 1)
@@ -9382,7 +9050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 139.7 180.34 0)
 			(effects
 				(font
