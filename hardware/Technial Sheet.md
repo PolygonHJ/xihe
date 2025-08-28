@@ -136,6 +136,34 @@ The [AXP1T34](https://www.digikey.co.uk/en/products/detail/nexperia-usa-inc/AXP1
 
 It is an active push-pull device so no pull resistors are required.
 
+## USB Charger
+The addition of the USB charger allows the device to be charged while being programmed or alternatively connected to an external wall charger.
+
+The Xiao module have a built in USB charger that could be used, however, this is configured to only output up to 4V2. In order to maximise the potential energy that can be stored the [BQ25173](https://www.ti.com/lit/ds/slusdy6/slusdy6.pdf) has been added and configured to charge the capacitor up to 5V5.
+
+### Current Limit
+The current can be set through a configurable resistor.
+
+$I_{CHG} = \frac{300}{R_{ISET}}$
+
+Setting $R_{ISET}=3k\Omega$ puts the charge current at $100mA$.
+
+This sets the charge time from empty to full to: $t = \frac{CV}{I_{CHG}} = \frac{0.47 \times 5}{100m} = 23.5seconds$.
+
+
+### Voltage Limit
+The charging voltage is set by: 
+- $V_{REG} = 0.8 \times \frac{R_{FBT}+R_{FBB}}{R_{FBB}}$,
+- $R_{FBT} + R_{FBB} < 1M\Omega$
+
+Based on this, $R_{FBT} = 680k\Omega$ and $R_{FBB} = 120k\Omega$ for a voltage limit of 5V3.
+
+> [!note]
+> The output voltage cannot exceed the input voltage. It is assumed that the Xiao module only accepts 5V, therefore the super capacitor can be charged by the USB to more than 5V by the USB input. The potential divider chain is set 
+
+> [!warning] 
+> The `nPG` pin can be used as the bottom of the potential divider to prevent divider leakage from the supercapacitor when the charger is disabled. This pin has a maximum rating of 5V5, which means a higher voltage device cannot be connected as an energy module.
+
 ## Capacitor
 The [EDC224Z5R5H](https://www.digikey.co.uk/en/products/detail/cornell-dubilier-knowles/EDC224Z5R5H/10412911) is a 470mF 5.5V capacitor which sits at approximately the same off board height as the USB connector. Therefore it should have minimal impact on overall board size. 
 

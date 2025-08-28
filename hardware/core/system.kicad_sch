@@ -2303,6 +2303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c43e6c2a-5ba0-48ec-85f6-984bd07b09ad")
 		)
@@ -2417,6 +2426,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 179.07 83.82 0)
 			(effects
 				(font

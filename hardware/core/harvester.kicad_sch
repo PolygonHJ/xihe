@@ -4219,6 +4219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08ebe7e7-5534-4241-b628-f2ea867469cf")
 		)
@@ -4408,6 +4417,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 91.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7a20ba2-bf4b-4333-89e6-281df112b77e")
 		)
@@ -4523,6 +4541,15 @@
 			)
 		)
 		(property "Mounting Type" "tht"
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -4647,6 +4674,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 77.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 77.47 62.23 0)
 			(effects
 				(font
@@ -4910,6 +4946,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2710f082-ad43-4e7e-aba2-23296aeea975")
 		)
@@ -5026,6 +5071,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -5158,6 +5212,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 180.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b10e437a-fcb3-4a07-b2da-92e0bdb66274")
 		)
@@ -5269,6 +5332,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abe0c15d-a368-40b1-91d9-29a948d5f150")
 		)
@@ -5367,6 +5439,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 30.48 68.58 0)
 			(effects
 				(font
@@ -5630,6 +5711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c475e3c9-e423-4b9d-9c3d-4a9707750ef4")
 		)
@@ -5873,6 +5963,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "ccaa6974-69a6-4802-b576-a9e29ecf30a9")
 		)
@@ -5981,6 +6080,15 @@
 			)
 		)
 		(property "Mounting Type" "tht"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -6105,6 +6213,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 165.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 165.1 180.34 0)
 			(effects
 				(font
@@ -6412,6 +6529,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a29d2a7a-39f5-4fda-8fa6-458fb57407f1")
 		)
@@ -6609,6 +6735,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0a8528fe-cd5f-4268-941a-cfa50b4443c7")
 		)
@@ -6725,6 +6860,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 60.96 87.63 0)
 			(effects
 				(font
@@ -6922,6 +7066,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02e502fd-4412-40e4-8081-8185817d9f88")
 		)
@@ -7038,6 +7191,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 105.41 40.64 0)
 			(effects
 				(font
@@ -7301,6 +7463,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aac146b8-2e07-41c9-8014-d96bd5178fed")
 		)
@@ -7425,6 +7596,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 180.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "390349fc-9026-4272-b25c-3d5ea3169316")
 		)
@@ -7541,6 +7721,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -7869,6 +8058,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaca9cfe-460b-4f16-9491-d3bf888eac1c")
 		)
@@ -8188,6 +8386,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "beac3e5c-6c5c-47a4-873d-472fc3c6cd0e")
 		)
@@ -8305,6 +8512,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 162.56 68.58 0)
 			(effects
 				(font
@@ -8567,6 +8783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9ad6728-b4bf-4690-8ddd-144d223aec79")
 		)
@@ -8810,6 +9035,15 @@
 				(hide yes)
 			)
 		)
+		(property "Short" ""
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "c24f469e-bdba-4d00-acf1-cfa45c4a7d21")
 		)
@@ -9032,7 +9266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "750"
+		(property "Value" "3k"
 			(at 142.24 184.1499 0)
 			(effects
 				(font
@@ -9087,7 +9321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-13750RL"
+		(property "Part Number" "RC0402FR-133KL"
 			(at 139.7 180.34 0)
 			(effects
 				(font
@@ -9115,6 +9349,15 @@
 			)
 		)
 		(property "Mounting Type" "smt"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Short" ""
 			(at 139.7 180.34 0)
 			(effects
 				(font
