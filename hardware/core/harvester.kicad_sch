@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Xihe")
-		(date "2025-08-28")
+		(date "2025-08-29")
 		(rev "0.1")
 	)
 	(lib_symbols
@@ -390,7 +390,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ic_logic:AXP1T34GSH"
+		(symbol "ic_logic:AXP1T34GWH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -447,16 +447,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AXP1T34GSH_0_1"
+			(symbol "AXP1T34GWH_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -505,7 +496,7 @@
 					)
 				)
 			)
-			(symbol "AXP1T34GSH_1_1"
+			(symbol "AXP1T34GWH_1_1"
 				(pin power_in line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -564,24 +555,6 @@
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "VCCO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4592,7 +4565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.49"
+		(property "Value" "6.49M"
 			(at 80.01 64.7699 0)
 			(effects
 				(font
@@ -5891,7 +5864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "generic:TI_8WSON_DSG"
 			(at 148.59 185.42 0)
 			(effects
 				(font
@@ -6441,131 +6414,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ic_logic:AXP1T34GSH")
-		(at 243.84 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ecce911-e48a-43c3-90af-6577f9f9e4f8")
-		(property "Reference" "U5"
-			(at 243.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AXP1T34"
-			(at 243.84 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "generic:NX_6SOT1202"
-			(at 243.84 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/AXP1T34.pdf"
-			(at 221.742 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual supply unidirectional translating buffer"
-			(at 242.57 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "74AXP1T34GSH"
-			(at 243.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia USA Inc."
-			(at 243.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Type" "smt"
-			(at 243.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "6XSON"
-			(at 243.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Short" ""
-			(at 243.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a29d2a7a-39f5-4fda-8fa6-458fb57407f1")
-		)
-		(pin "6"
-			(uuid "39156787-61c2-4d65-88d3-62dde80460fd")
-		)
-		(pin "4"
-			(uuid "97f6c375-a659-4fa9-9b0b-f456309c4ba3")
-		)
-		(pin "5"
-			(uuid "a8e105b7-0bd2-44db-94c8-d05e8fcab16a")
-		)
-		(pin "2"
-			(uuid "43e585e4-4858-452d-9332-7a27386ca95e")
-		)
-		(pin "1"
-			(uuid "e0c2b75d-ba40-490e-9abb-0c8ac995f2b1")
-		)
-		(instances
-			(project ""
-				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/cd3a3636-14ab-4325-9b35-d239f2fcdaad"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_symbol:GND")
 		(at 60.96 97.79 0)
 		(unit 1)
@@ -7085,6 +6933,110 @@
 			(project ""
 				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/cd3a3636-14ab-4325-9b35-d239f2fcdaad"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ic_logic:AXP1T34GWH")
+		(at 243.84 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ff4e832-7204-45b1-b95f-d4cc5270575d")
+		(property "Reference" "U4"
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AXP1T34"
+			(at 243.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "generic:NX_5SOT353"
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/AXP1T34.pdf"
+			(at 221.742 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual supply unidirectional translating buffer"
+			(at 242.57 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia USA Inc."
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "smt"
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "74AXP1T34GWH"
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "59f443ad-7440-4692-b767-a8d4b6ef385a")
+		)
+		(pin "1"
+			(uuid "315bbcab-e950-4e0f-99e5-ebbbe349a1fa")
+		)
+		(pin "2"
+			(uuid "71fca1d3-82bb-41c7-8622-04ad91e43b8f")
+		)
+		(pin "3"
+			(uuid "56062cf1-ba75-4344-9caf-a963106d7837")
+		)
+		(pin "5"
+			(uuid "e489fa03-37d2-403f-ad64-2e74b6b67ff9")
+		)
+		(instances
+			(project ""
+				(path "/8ec7ca4f-74cd-48e1-b45d-8806dcda5073/cd3a3636-14ab-4325-9b35-d239f2fcdaad"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8296,7 +8248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.49"
+		(property "Value" "6.49M"
 			(at 80.01 77.4699 0)
 			(effects
 				(font
@@ -8963,7 +8915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm"
+		(property "Footprint" "generic:TI_20VQFN_RGR"
 			(at 137.16 46.99 0)
 			(effects
 				(font

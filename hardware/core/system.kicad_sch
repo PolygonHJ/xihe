@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Xihe")
-		(date "2025-08-28")
+		(date "2025-08-29")
 		(rev "0.1")
 	)
 	(lib_symbols
@@ -55,6 +55,15 @@
 			)
 			(property "Description" "Molex SlimStack 02x03"
 				(at -0.254 13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
