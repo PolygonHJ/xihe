@@ -139,7 +139,7 @@
         "min_track_width": 0.1016,
         "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -589,7 +589,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -613,7 +613,7 @@
           "group_by": false,
           "label": "Mounting Type",
           "name": "Mounting Type",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -643,7 +643,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -655,7 +655,7 @@
           "group_by": false,
           "label": "Power",
           "name": "Power",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -667,7 +667,7 @@
           "group_by": false,
           "label": "Voltage Rating",
           "name": "Voltage Rating",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -679,7 +679,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -698,8 +698,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Voltage Rating"
     },
     "connection_grid_size": 50.0,
     "drawing": {

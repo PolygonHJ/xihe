@@ -25,10 +25,10 @@ Where:
 - $P$: Power from solar cell, $347.5\mu W$.
 
 For an empty capacitor:  
-$t = \frac{0.47 \times 5.3^2}{2 \times 0.8 \times 0.348} = 6h36min$ to fully charge.
+$t = \frac{0.47 \times 5.3^2}{2 \times 0.8 \times 0.348m} = 6h36min$ to fully charge.
 
 For the running systme ($V_{initial}=2.5$):  
-$t = \frac{0.47 \times (5.3-2.5)^2}{2 \times 0.8 \times 0.348} = 1h50min$ to fully charge.
+$t = \frac{0.47 \times (5.3-2.5)^2}{2 \times 0.8 \times 0.348m} = 1h50min$ to fully charge.
 
 > [!note] Note
 > Ignores the energy being consumed by the system while charging.

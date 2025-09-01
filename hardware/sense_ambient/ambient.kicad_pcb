@@ -2695,7 +2695,7 @@
 		(start 112.5 61)
 		(end 112.5 51.5)
 		(stroke
-			(width 2)
+			(width 0.05)
 			(type default)
 		)
 		(locked yes)
@@ -2707,7 +2707,7 @@
 		(mid 112.06066 50.43934)
 		(end 112.5 51.5)
 		(stroke
-			(width 2)
+			(width 0.05)
 			(type default)
 		)
 		(locked yes)
@@ -2718,7 +2718,7 @@
 		(start 100 61)
 		(end 112.5 61)
 		(stroke
-			(width 2)
+			(width 0.05)
 			(type default)
 		)
 		(locked yes)
@@ -2729,7 +2729,7 @@
 		(start 111 50)
 		(end 100 50)
 		(stroke
-			(width 2)
+			(width 0.05)
 			(type default)
 		)
 		(locked yes)
@@ -2740,7 +2740,7 @@
 		(start 100 61)
 		(end 100 50)
 		(stroke
-			(width 2)
+			(width 0.05)
 			(type default)
 		)
 		(locked yes)
