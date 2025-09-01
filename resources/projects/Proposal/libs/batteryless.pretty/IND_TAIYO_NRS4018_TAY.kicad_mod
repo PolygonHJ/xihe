@@ -1,0 +1,217 @@
+(footprint "IND_TAIYO_NRS4018_TAY"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "NRS4018T220MDGJ ")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d40bcdad-a84c-430e-b20c-9248af63ca34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_TAIYO_NRS4018_TAY"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db7cfcaf-3fd6-45f2-99d8-f8650ec822ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "362abeda-d9ec-495b-875d-f34ee1213636")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15814a7a-95e3-4f5e-91a2-0bbb95ff71a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 2)
+		(end 0.6 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e5de052-2ab0-4e46-b848-d16c695cdd05")
+	)
+	(fp_line
+		(start 0.6 -2)
+		(end -0.6 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a29157f7-ca3d-47d0-8daf-5a00f281f635")
+	)
+	(fp_circle
+		(center -1.9 -2.35)
+		(end -1.7 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c96e5abe-798f-4433-a9bc-340e6601092f")
+	)
+	(fp_rect
+		(start -2.15 -2.1)
+		(end 2.15 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ba555652-38bf-43a2-ba9e-cb3777ef88e5")
+	)
+	(fp_line
+		(start -2.0447 -2.0447)
+		(end -2.0447 2.0447)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70eb31c5-1148-4026-8d52-7ef27f925e71")
+	)
+	(fp_line
+		(start -2.0447 2.0447)
+		(end 2.0447 2.0447)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d35b85b-35f0-4858-bdb2-df977d0e3b1b")
+	)
+	(fp_line
+		(start 2.0447 -2.0447)
+		(end -2.0447 -2.0447)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12ff7108-39a5-4dfb-984c-2eec0b3e17e5")
+	)
+	(fp_line
+		(start 2.0447 2.0447)
+		(end 2.0447 -2.0447)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8d87a2a-6bd7-414d-ac36-7f65b67b1a92")
+	)
+	(fp_circle
+		(center -1.9685 0)
+		(end -1.8923 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "efe4822a-d8e9-431f-ac98-5085813cf2a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3184cbf3-199f-451a-bf58-282948dcda7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.397 0)
+		(size 1.1938 3.7084)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "febda522-cf8d-4307-98ca-794f1d02fd11")
+	)
+	(pad "2" smd rect
+		(at 1.397 0)
+		(size 1.1938 3.7084)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65b9b185-fd58-4bd3-96a5-e74d42ca8914")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "a85bda69-b973-4723-8cc1-a48550e56ac7")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.7493 -1.9939) (xy 0.7493 -1.9939) (xy 0.7493 1.9939) (xy -0.7493 1.9939)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/hjeremy/Downloads/Batteryless/Hardware/libs/models/IND_TAIYO_NRS4018_TAY.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

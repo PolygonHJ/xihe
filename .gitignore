@@ -38,3 +38,7 @@ bom/
 
 # Gerber export output
 out/
+
+# Reference Projects
+resources/projects/*
+!resources/projects/Proposal/**

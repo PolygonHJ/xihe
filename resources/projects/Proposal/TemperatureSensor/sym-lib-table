@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "batteryless")(type "KiCad")(uri "C:/Users/hjeremy/Downloads/Batteryless/Hardware/libs/batteryless.kicad_sym")(options "")(descr ""))
+  (lib (name "bpower")(type "KiCad")(uri "C:/Users/hjeremy/Downloads/Batteryless/Hardware/libs/bpower.kicad_sym")(options "")(descr ""))
+)
